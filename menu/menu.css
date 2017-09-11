@@ -1,0 +1,230 @@
+.md-toc {
+    position: fixed;
+    padding-right: 10px;
+    margin-top: 0 !important;
+    max-width: 350px;
+    border: 2px solid lawngreen;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.md-toc span {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #3FC908;
+}
+
+html,
+body {
+    height: 100% !important;
+}
+
+body {
+    position: relative;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    display: inline-block !important;
+    margin-right: 350px;
+}
+
+h1 {
+    color: rgb(196, 143, 100);
+}
+
+h2 {
+    color: rgb(1, 165, 175);
+}
+
+h3 {
+    /* color:  #E9EBFE; */
+    color: rgb(107, 194, 53);
+}
+
+h4 {
+    color: rgb(69, 137, 148);
+}
+
+h5 {
+    color: rgb(38, 188, 213);
+}
+
+h6 {
+    color: rgb(213, 26, 33);
+}
+
+h1.emoji::before,
+h1.emoji::after,
+h2.emoji::before,
+h2.emoji::after,
+h3.emoji::before,
+h3.emoji::after,
+h4.emoji::before,
+h4.emoji::after,
+h5.emoji::before,
+h5.emoji::after,
+h6.emoji::before,
+h6.emoji::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(0deg);
+    transition: all 1s;
+}
+
+h1.emoji::before,
+h2.emoji::before,
+h3.emoji::before,
+h4.emoji::before,
+h5.emoji::before,
+h6.emoji::before {
+    left: -28px;
+}
+
+h1.emoji::after,
+h2.emoji::after,
+h3.emoji::after,
+h4.emoji::after,
+h5.emoji::after,
+h6.emoji::after {
+    right: -28px;
+}
+
+h1.emoji::after,
+h1.emoji::before {
+    background-image: url("emoji/emoji2.png");
+}
+
+h2.emoji::after,
+h2.emoji::before {
+    background-image: url("emoji/emoji1.png");
+}
+
+h3.emoji::after,
+h3.emoji::before {
+    background-image: url("emoji/emoji3.png");
+}
+
+h4.emoji::after,
+h4.emoji::before {
+    background-image: url("emoji/emoji4.png");
+}
+
+h5.emoji::after,
+h5.emoji::before {
+    background-image: url("emoji/emoji5.png");
+}
+
+h6.emoji::after,
+h6.emoji::before {
+    background-image: url("emoji/emoji6.png");
+}
+
+.md-toc a {
+    color: black;
+    font-weight: 600;
+}
+
+.md-toc a:hover {
+    color: red;
+}
+
+#write {
+    position: absolute;
+    /* border: 1px solid black; */
+    padding-left: 40px;
+    /* border-image: url("emoji/emoji1.png")  round; */
+}
+
+#write.light {
+    background-color: rgb(39, 40, 34) !important;
+    color: white;
+}
+
+#write.xinrenhuang {
+    background-color: #FDE6E0 !important;
+    color: black;
+}
+
+#write.haitianlan {
+    background-color: #C7EDCC !important;
+    /* background-color: #DCE2F1 !important; */
+    color: black;
+}
+
+pre.changeColor {
+    background-color: #D1DAEC !important;
+    /* color: rgb(64, 116, 52); */
+    color: black;
+}
+
+button {
+    position: fixed;
+    width: 70px;
+    height: 30px;
+    top: 5px;
+}
+
+button.lightBtn.left {
+    left: 25px;
+}
+
+button.huyanbtn.left {
+    left: 105px;
+}
+
+button.emojibtn.left {
+    left: 185px;
+}
+
+button.torightbtn.left {
+    left: 265px;
+}
+
+button.lightBtn.right {
+    right: 25px;
+}
+
+button.huyanbtn.right {
+    right: 105px;
+}
+
+button.emojibtn.right {
+    right: 185px;
+}
+
+button.torightbtn.right {
+    right: 265px;
+}
+
+#write.right {
+    left: 10px;
+    top: 50px;
+}
+
+#write.left {
+    right: 10px;
+    top: 50px;
+}
+
+.md-toc.right {
+    right: 20px;
+    top: 50px;
+}
+
+.md-toc.left {
+    left: 20px;
+    top: 50px;
+}
